@@ -1,2 +1,5 @@
 @import "./reset.css";
 @import "./variables.css";
+
+/* Typography */
+@import "./typography.css";

@@ -18,18 +18,48 @@ body {
   --primary4: #020413;
 
   /* Text colors */
-  --dark: var(--primary4);
-  --gray-dark: rgba(2, 4, 19, 0.6);
-  --gray-light: #c7c6c7;
-  --light: #fff;
+  --text-dark: var(--primary4);
+  --text-dark-gary: rgba(2, 4, 19, 0.6);
+  --text-light-gray: #c7c6c7;
+  --text-light: #fff;
 
   /* Gradients */
   --gradient-dark: linear-gradient(to bottom left, #ffe1a1, #fedc93);
   --gradient-light: linear-gradient(to top right, rgba(255, 225, 161, 0.12))
     rgba(254, 220, 147, 0.12);
+
+  /* Typography */
+  --font-family: Poppins, sans-serif;
+  --line-height: 1.5;
+  --default-font-size: 16px;
 }
 
+body {
+  color: var(--text-dark);
+  line-height: var(--line-height);
+  font-family: var(--font-family);
+  font-size: var(--default-font-size);
+}
 
+h1 {
+  font-size: 62px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Typography */
 
 
 /*# sourceMappingURL=/styles.6145e9cd.css.map */
