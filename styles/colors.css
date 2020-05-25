@@ -1,0 +1,18 @@
+:root {
+  /* Primary colors */
+  --primary1: #fe775a;
+  --primary2: #3cc18c;
+  --primary3: #ffde99;
+  --primary4: #020413;
+
+  /* Text colors */
+  --dark: var(--primary4);
+  --gray-dark: rgba(2, 4, 19, 0.6);
+  --gray-light: #c7c6c7;
+  --light: #fff;
+
+  /* Gradients */
+  --gradient-dark: linear-gradient(to bottom left, #ffe1a1, #fedc93);
+  --gradient-light: linear-gradient(to top right, rgba(255, 225, 161, 0.12))
+    rgba(254, 220, 147, 0.12);
+}
