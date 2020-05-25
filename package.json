@@ -1,0 +1,19 @@
+{
+  "name": "grocery-delivery-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for a grocery delivery company",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMelox/grocery-delivery-landing-page.git"
+  },
+  "author": "Alexander Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderMelox/grocery-delivery-landing-page/issues"
+  },
+  "homepage": "https://github.com/AlexanderMelox/grocery-delivery-landing-page#readme"
+}
